@@ -24,4 +24,4 @@ Write a program that:
 <br>      ``java -jar Codierungsaufgabe.jar Anna kauft Möbel bei moebel.de.``
 
 ### 2) Repeatable use:
-  ``java -jar java -jar Codierungsaufgabe.jar``
+  ``java -jar Codierungsaufgabe.jar``
