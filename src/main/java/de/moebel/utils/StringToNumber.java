@@ -28,7 +28,7 @@ public class StringToNumber {
      *
      * @see #getSumByCharacters(char...) Executes this method with the String as charArray.
      * @param text Characters of the String that need to calculated.
-     * @return The sum of all values with each character as an int.
+     * @return The sum of all values with each character as an integer.
      */
     public static int getSumByString(String text) {
         return getSumByCharacters(text.toCharArray());
@@ -39,7 +39,7 @@ public class StringToNumber {
      *  with its connected value.
      *
      * @param characters Characters that need to be calculated.
-     * @return The sum of all values with each character as an int.
+     * @return The sum of all values with each character as an integer.
      */
     public static int getSumByCharacters(char... characters) {
         int sum = 0;
