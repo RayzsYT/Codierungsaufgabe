@@ -27,7 +27,9 @@ public class Main {
             In here, the jar generates a result according to the given arguments and stops the process directly after.
          */
 
-        if(length > 0) {
+        System.out.println(length);
+
+        if(length != -1) {
             printResult(timer, String.join( " ", args));
             return;
         }
