@@ -14,8 +14,6 @@ Write a program that:
   5) (Optional) Has some unit-tests included
 ```
 
-Task given by moebel.de for Alihan (me). 
-
 <hr>
 
 ## Usage:
