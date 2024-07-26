@@ -11,7 +11,7 @@ public class StringToNumber {
 
     private static final Map<Character, Integer> CHARACTER_HASH = new HashMap<>();
 
-    // Put all letters/characters from A-Z into a HashMap with their given values.
+    // Puts all letters/characters from A-Z into a HashMap with their given values.
     static {
         char currentChar = 'A'-1;
         int currentValue = 1;
@@ -26,7 +26,7 @@ public class StringToNumber {
      *  This method in particular separates each letter of the String
      *  to simplify the process.
      *
-     * @see #getSumByCharacters(char...) executes this method with the String as charArray.
+     * @see #getSumByCharacters(char...) Executes this method with the String as charArray.
      * @param text Characters of the String that need to calculated.
      * @return The sum of all values with each character as an int.
      */
@@ -62,14 +62,14 @@ public class StringToNumber {
         // Returns 0 instead, if the character isn't in the english alphabet.
         if(!Character.isAlphabetic(character)) return '0';
 
-        // Uppercases the latter, if it's lowercased.
+        // Uppercases the letter, if it's lowercased.
         return Character.isLowerCase(character) ? Character.toUpperCase(character) : character;
     }
 
     /**
      * Returns the value of a character.
      *
-     * @param character The character to get the value from.
+     * @param character The character to get the value of.
      * @return Returns the value of the character as an integer.
      */
     public static int getValueByCharacter(char character) {
