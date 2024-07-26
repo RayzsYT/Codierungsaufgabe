@@ -26,7 +26,9 @@ public class StringToNumber {
      *  This method in particular separates each letter of the String
      *  to simplify the process.
      *
-     * @see #getSumByCharacters(char...) executes this method with the String as charArray
+     * @see #getSumByCharacters(char...) executes this method with the String as charArray.
+     * @param text Characters of the String that need to calculated.
+     * @return The sum of all values with each character as an int.
      */
     public static int getSumByString(String text) {
         return getSumByCharacters(text.toCharArray());
@@ -36,8 +38,8 @@ public class StringToNumber {
      *  This method automates the process to calculate each character
      *  with its connected value.
      *
-     * @param characters Characters that need to calculate with
-     * @return The sum of all values with each character as an int
+     * @param characters Characters that need to calculated.
+     * @return The sum of all values with each character as an int.
      */
     public static int getSumByCharacters(char... characters) {
         int sum = 0;
