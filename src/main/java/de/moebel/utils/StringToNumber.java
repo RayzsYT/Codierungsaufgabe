@@ -44,7 +44,7 @@ public class StringToNumber {
     public static int getSumByCharacters(char... characters) {
         int sum = 0;
 
-        // Loop through every given character and calculate its values with the sum.
+        // Loop through every given character and add their values to the sum.
         for (char character : characters)
             sum += getValueByCharacter(character);
 
