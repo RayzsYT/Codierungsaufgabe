@@ -38,7 +38,7 @@ public class StringToNumber {
      *  This method automates the process to calculate each character
      *  with its connected value.
      *
-     * @param characters Characters that need to calculated.
+     * @param characters Characters that need to be calculated.
      * @return The sum of all values with each character as an int.
      */
     public static int getSumByCharacters(char... characters) {
