@@ -69,7 +69,7 @@ public class StringToNumber {
     /**
      * Returns the value of a character.
      *
-     * @param character The character to get the value of.
+     * @param character The character to get the value from.
      * @return Returns the value of the character as an integer.
      */
     public static int getValueByCharacter(char character) {
